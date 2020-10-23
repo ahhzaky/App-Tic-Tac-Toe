@@ -23,3 +23,7 @@ You can check the application in the folder out/
 ### Build with
 
 - [ElectronJs](https://www.electronjs.org/)
+
+### Reference
+
+- [freeCodeCamp.org](https://www.youtube.com/watch?v=P2TcQ3h0ipQ)
