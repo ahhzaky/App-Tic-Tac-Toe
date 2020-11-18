@@ -10,8 +10,8 @@ if (require("electron-squirrel-startup")) {
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 350,
-    height: 450,
+    width: 800,
+    height: 600,
     webPreferences: {
       nodeIntegration: true,
     },
@@ -19,6 +19,7 @@ const createWindow = () => {
 
   // and load the index.html of the app.
   mainWindow.loadFile(path.join(__dirname, "index.html"));
+  // header null
   mainWindow.setMenu(null);
 
   // Open the DevTools. Tampilkan inspect ketika terbukaa
